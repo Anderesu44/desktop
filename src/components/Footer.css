@@ -1,0 +1,174 @@
+Footer{
+    display: grid;
+    grid-template-areas:
+        "title"
+        "contact"
+        "creditos"
+        "firma"
+    ;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 100vw;
+}
+body[theme = "Dark"] Footer{
+    color: #0000FF;
+    background: linear-gradient(to top,#ffc700,#fd7e00);
+}
+.Footer__tilte{
+    grid-area: title;
+    padding: 0 20px;
+}
+.Footer_tilte__text{
+    margin-bottom: 15px;
+}
+.Footer_tilte__list{
+    margin: 0;
+    padding: 0 30px;
+}
+.Footer_tilte__list li{
+    color: #343434;
+}
+.Footer_tilte__link, .Footer_tilte__link:visited, .Footer_tilte__link:hover{
+    margin: 0;
+    padding: 0;
+}
+body[theme = "Dark"] .Footer_tilte__link{
+    color: #343434;
+}
+
+body[theme = "Dark"] .Footer_Contact{
+    background-color: #30303000;
+}
+.Footer_Contact{
+    grid-area: contact;
+    /* margin: 0 0 0 40%; */
+    padding: 0 20px 0;
+    text-align: left;
+    /* max-width: 50%; */
+}   
+.Footer__Contact_title{
+    text-align: left;
+}
+.Footer_Contact a{
+    display: block;
+    margin: 10px 0;
+}
+body[theme = "Dark"] .Footer__link__icon{
+    border: 2px solid #ffffff;
+}
+.Footer__link__icon{
+    max-width: 25px;
+    padding: 1px;
+    border-radius: 100%;
+}
+@media screen and (max-width:425px) {
+    .Footer__link__icon{
+        float: left;
+    }
+}
+body[theme = "Dark"] .Footer__link,body[theme = "Dark"] .Footer__link:visited,body[theme = "Dark"] .Footer__link{
+    color: #0000ff;
+}
+body[theme = "Dark"] .Footer__creditos.Footer__link,body[theme = "Dark"] .Footer__creditos.Footer__link:visited,body[theme = "Dark"] .Footer__creditos.Footer__link{
+    color: #cc0022;
+}
+.Footer__link,.Footer__link:visited,.Footer__link{
+    text-decoration: none;
+}
+body[theme = "Dark"] .Footer__link:hover{
+    color: #000000;
+}
+.Footer__link:hover{
+    transition: all .3s;
+    font-size: larger;
+}
+.Footer__link:hover .Footer__link__icon{
+    max-width: 30px;
+    transition: all .3s;
+}
+.Footer__creditos{
+    grid-area: creditos;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+}
+.Footer__creditos .Footer__link{
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    padding: 0;
+}
+.Footer__firma{
+    grid-area: firma;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media screen and /*(max-width:1440px)and*/ (min-width:1200px){
+    /*==============Laptop===============*/
+    Footer{
+        display: grid;
+        grid-template-areas:
+            "title none contact"
+            "null none contact"
+            "null firma contact"
+        ;
+        grid-template-rows: 1fr 1fr auto;
+        grid-template-columns: 1fr auto 1fr;
+    }
+    body[theme = "Dark"] Footer{
+        color: #00ff00;
+        background-color: #343434;
+    }
+    .Footer__tilte{
+        grid-area: title;
+    }
+    body[theme = "Dark"] .Footer_Contact{
+        background-color: #303030;
+    }
+    .Footer_Contact{
+        grid-area: contact;
+        margin: 0 0 0 40%;
+        padding: 0 20px 0;
+        text-align: right;
+        max-width: 50%;
+    }   
+    .Footer__Contact_title{
+        text-align: left;
+    }
+    .Footer_Contact a{
+        display: block;
+    }
+    body[theme = "Dark"] .Footer__link__icon{
+        border: 2px solid #ffffff;
+    }
+    .Footer__link__icon{
+        max-width: 25px;
+        padding: 1px;
+        border-radius: 100%;
+    }
+    body[theme = "Dark"] .Footer__link,body[theme = "Dark"] .Footer__link:visited,body[theme = "Dark"] .Footer__link{
+        color: #00ff00;
+    }
+    .Footer__link,.Footer__link:visited,.Footer__link{
+        text-decoration: none;
+    }
+    body[theme = "Dark"] .Footer__link:hover{
+        color: #00FFff;
+    }
+    .Footer__link:hover{
+        transition: all .3s;
+        font-size: larger;
+    }
+    .Footer__link:hover .Footer__link__icon{
+        max-width: 30px;
+        transition: all .3s;
+    }
+    .Footer__firma{
+        grid-area: firma;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "projects" :{
+        "project_1": {
+            "id": "jsx_01",
+            "name":{
+                "EN":"Animes Catalog",
+                "ES":"Catalago de Animes"
+            },
+            "Language":"jsx",
+            "data_update":20240620,
+            "link":"localhost:5174",
+            "Progress":"40%",
+            "description": {
+                "EN" : "this makeing a Catalog thas allows me optimize all the animes thas i am wath for can find it",
+                "ES" : "Estoy creando un Catalogo que me permita organizar todos los animes que he visto para encontarlos de manera facil y comoda"
+            }
+        },
+        "project_2": {
+            "id": "py_01",
+            "name":{
+                "EN":"test",
+                "ES":"prueba"
+            },
+            "Language":"py",
+            "data_update":20240622,
+            "link":"localhost:5174",
+            "Progress":"finalized",
+            "description":{
+                "EN": "this is the test text",
+                "ES": "Esto es una prueba de projecto se supone que esta es la descripcion"
+            }
+        },
+        "project_3": {
+            "id": "js_01",
+            "name":{
+                "EN":"test 2",
+                "ES":"prueba 2"
+            },            "Language":"js",
+            "data_update":20240622,
+            "link":"localhost:5174",
+            "Progress":"starteds",
+            "description":{
+                "EN": "this is the test text",
+                "ES": "Esto es una prueba de projecto se supone que esta es la descripcion"
+            }        
+        },
+        "project_4": {
+            "id": "kt_01",
+            "name":{
+                "EN":"Calculator",
+                "ES":"calculadora"
+            },
+            "Language":"kt",
+            "data_update":20240622,
+            "link":"localhost:5174",
+            "Progress":"starteds",
+            "description":{
+                "EN":"this is the calculator for terminal that allows you to do simples arimethic operations",
+                "ES": "Es una calculadora simple por terminal que permite hacer operaciones aridmeticas simples"
+            } 
+        },
+        "project_5": {
+            "id": "dj_01",
+            "name":{
+                "EN":"test 3",
+                "ES":"prueba 3"
+            },
+            "Language":"dj",
+            "data_update":20240622,
+            "link":"localhost:5174",
+            "Progress":"starteds",
+            "description":{
+                "EN":"this is the calculator to brouser that allows you to do simples arimethic operations",
+                "ES": "Es una calculadora simple de navegador que permite hacer operaciones aridmeticas simples"
+            } 
+        }
+    },
+    "Langs":{
+        "EN":{
+            "H-Header__tilte":"Web developer junior",
+            "H-Header_Sumary__title":"Sumary",
+            "H-Header_Sumary__text":"I am new in the programing world, i am know how programing with Python, HTML/CSS and JavaScript. i'm fron cuba and i'm 18 years old, i know to speak very basic English.I am developing new projects and learning new tecnolojys. I hope work in a big company some day.",
+            "Skills__title":"Skills",
+            "Spc_Biginer":"Beginer",
+            "Spc_Basic":"Basic",
+            "Spc_Average":"Average",
+            "Spc_Advanced":"Advanced",
+            "Spc_Master":"Master",
+            "Spc_Others":"Others",
+            "":""
+        },
+        "ES":{
+            "H-Header__tilte":"desarrollador web junior",
+            "H-Header_Sumary__title":"Resumen",
+            "H-Header_Sumary__text":"Soy njuevo en el mundo de la programacion, se programar con Python, HTML/CSS y JavaScript. Soy de cuba y tengo 18años, se Hablar ingles muy basico .Estoy desarrollando nuevos proyectos y aprendiendo nuevas tecnologias. Quiciera trabajar en una gran compañia algun dia",
+            "Skills__title":"Habilidades",
+            "Spc_Biginer":"Principiante",
+            "Spc_Average":"Medio",
+            "Spc_Advanced":"Avansado",
+            "Spc_Basic":"Basico",
+            "Spc_Master":"Maestro",
+            "Spc_Others":"Otras",
+            "":""
+        }
+    }
+}

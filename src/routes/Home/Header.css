@@ -1,0 +1,24 @@
+.H-Header__tilte{
+    text-align: center;
+    margin: 0;
+}
+body[theme="Dark"] .H-Header__tilte{
+    color: #ddd;
+}
+.H-Header__Avatar{
+    display: block;
+    margin: 20px auto;
+    border:5px solid;
+    border-radius: 10%;
+}
+body[theme="Dark"] .H-Header__Avatar{
+    border-color: #ddd;
+}
+body[theme="Dark"] .H-Header__Sumary{
+    color: #ddd;
+}
+
+.H-Header__Sumary{
+    margin: 10px;
+    font-size: 30px;
+}

@@ -1,0 +1,26 @@
+.Nav {
+    /* display: flex; */
+    height: 7vh;
+    min-height: 35px;
+    /* align-content: last baseline; */
+}
+
+body[theme = "Dark"] .Nav{
+    background: #343434 ;
+    color: #fff;
+}
+
+.Nav__Swith_theme{
+    float: right;
+    max-height: 100%;
+}
+.Nav__Swith_Lang{
+    float: left;
+    max-height: 100%;
+}
+@media screen and /*(max-width:1440px)and*/ (min-width:1200px){
+/*==============Laptop===============*/
+}
+@media screen and (min-width:1440px){
+    /*================TV=================*/
+}
