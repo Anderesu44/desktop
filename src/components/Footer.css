@@ -9,9 +9,13 @@ Footer{
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 100vw;
 }
-body[theme = "Dark"] Footer{
+body[theme = "Dark"] .Footer{
     color: #0000FF;
     background: linear-gradient(to top,#ffc700,#fd7e00);
+}
+body[theme = "Light"] .Footer{
+    color: #ddd;
+    background: #343434;
 }
 .Footer__tilte{
     grid-area: title;
@@ -24,8 +28,11 @@ body[theme = "Dark"] Footer{
     margin: 0;
     padding: 0 30px;
 }
-.Footer_tilte__list li{
+body[theme = "Dark"] .Footer_tilte__list li{
     color: #343434;
+}
+body[theme = "Light"] .Footer_tilte__list li{
+    color: #ddd;
 }
 .Footer_tilte__link, .Footer_tilte__link:visited, .Footer_tilte__link:hover{
     margin: 0;
@@ -33,6 +40,9 @@ body[theme = "Dark"] Footer{
 }
 body[theme = "Dark"] .Footer_tilte__link{
     color: #343434;
+}
+body[theme = "Light"] .Footer_tilte__link{
+    color: #ddd;
 }
 
 body[theme = "Dark"] .Footer_Contact{
@@ -52,7 +62,7 @@ body[theme = "Dark"] .Footer_Contact{
     display: block;
     margin: 10px 0;
 }
-body[theme = "Dark"] .Footer__link__icon{
+.Footer__link__icon{
     border: 2px solid #ffffff;
 }
 .Footer__link__icon{
@@ -68,14 +78,19 @@ body[theme = "Dark"] .Footer__link__icon{
 body[theme = "Dark"] .Footer__link,body[theme = "Dark"] .Footer__link:visited,body[theme = "Dark"] .Footer__link{
     color: #0000ff;
 }
-body[theme = "Dark"] .Footer__creditos.Footer__link,body[theme = "Dark"] .Footer__creditos.Footer__link:visited,body[theme = "Dark"] .Footer__creditos.Footer__link{
+body[theme = "Light"] .Footer__link,body[theme = "Light"] .Footer__link:visited,body[theme = "Light"] .Footer__link{
+    color: #ddd;
+    text-decoration:underline #ffc700;
+}
+body[theme = "Dark"] .Footer__creditos .Footer__link,body[theme = "Dark"] .Footer__creditos .Footer__link:visited,body[theme = "Dark"] .Footer__creditos .Footer__link{
     color: #cc0022;
 }
-.Footer__link,.Footer__link:visited,.Footer__link{
-    text-decoration: none;
-}
+
 body[theme = "Dark"] .Footer__link:hover{
     color: #000000;
+}
+body[theme = "Light"] .Footer__link:hover{
+    color: #d9ff00;
 }
 .Footer__link:hover{
     transition: all .3s;

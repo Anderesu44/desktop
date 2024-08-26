@@ -15,35 +15,6 @@
                 "ES" : "Estoy creando un Catalogo que me permita organizar todos los animes que he visto para encontarlos de manera facil y comoda"
             }
         },
-        "project_2": {
-            "id": "py_01",
-            "name":{
-                "EN":"test",
-                "ES":"prueba"
-            },
-            "Language":"py",
-            "data_update":20240622,
-            "link":"localhost:5174",
-            "Progress":"finalized",
-            "description":{
-                "EN": "this is the test text",
-                "ES": "Esto es una prueba de projecto se supone que esta es la descripcion"
-            }
-        },
-        "project_3": {
-            "id": "js_01",
-            "name":{
-                "EN":"test 2",
-                "ES":"prueba 2"
-            },            "Language":"js",
-            "data_update":20240622,
-            "link":"localhost:5174",
-            "Progress":"starteds",
-            "description":{
-                "EN": "this is the test text",
-                "ES": "Esto es una prueba de projecto se supone que esta es la descripcion"
-            }        
-        },
         "project_4": {
             "id": "kt_01",
             "name":{
@@ -57,21 +28,6 @@
             "description":{
                 "EN":"this is the calculator for terminal that allows you to do simples arimethic operations",
                 "ES": "Es una calculadora simple por terminal que permite hacer operaciones aridmeticas simples"
-            } 
-        },
-        "project_5": {
-            "id": "dj_01",
-            "name":{
-                "EN":"test 3",
-                "ES":"prueba 3"
-            },
-            "Language":"dj",
-            "data_update":20240622,
-            "link":"localhost:5174",
-            "Progress":"starteds",
-            "description":{
-                "EN":"this is the calculator to brouser that allows you to do simples arimethic operations",
-                "ES": "Es una calculadora simple de navegador que permite hacer operaciones aridmeticas simples"
             } 
         }
     },
@@ -87,6 +43,12 @@
             "Spc_Advanced":"Advanced",
             "Spc_Master":"Master",
             "Spc_Others":"Others",
+            "Footer_tilte__text":"My Desktop",
+            "Footer__Contact_title":"Contact me",
+            "Footer__link_direct_mesenger":"direct mesenger",
+            "Footer__link_credits_mel":"Avatar image by MelRed",
+            "Footer__link_cradits_icons":"icons created by Icon Mela - Flaticon",
+            "Footer__firma":"Page Designed by A44",
             "":""
         },
         "ES":{
@@ -100,6 +62,12 @@
             "Spc_Basic":"Basico",
             "Spc_Master":"Maestro",
             "Spc_Others":"Otras",
+            "Footer_tilte__text":"Mi portafolios",
+            "Footer__Contact_title":"Contactame",
+            "Footer__link_direct_mesenger":"mensage directo",
+            "Footer__link_credits_mel":"imagen de avatar por MelRed",
+            "Footer__link_cradits_icons":"iconos creados por Icon Mela - Flaticon",
+            "Footer__firma":"Pagina Diseñada por A44",
             "":""
         }
     }

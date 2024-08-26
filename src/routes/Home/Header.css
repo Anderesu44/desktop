@@ -5,6 +5,9 @@
 body[theme="Dark"] .H-Header__tilte{
     color: #ddd;
 }
+body[theme="Light"] .H-Header__tilte{
+    color: #242424;
+}
 .H-Header__Avatar{
     display: block;
     margin: 20px auto;
@@ -16,6 +19,21 @@ body[theme="Dark"] .H-Header__Avatar{
 }
 body[theme="Dark"] .H-Header__Sumary{
     color: #ddd;
+}
+body[theme="Light"] .H-Header__Avatar{
+    border-color: #fd7e00;
+}
+body[theme="Light"] .H-Header_Sumary__title{
+    text-decoration: underline;
+    text-decoration-color: #fd7e00;
+}
+body[theme="Light"] .H-Header_Sumary__text{
+    text-shadow: 1px 1px 0px #fd7e00,
+                 1px 1px 1em #fd7e00;
+    text-decoration-color: #fd7e00;
+}
+body[theme="Light"] .H-Header__Sumary{
+    color: #242424;
 }
 
 .H-Header__Sumary{

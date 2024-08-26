@@ -7,16 +7,30 @@
 
 body[theme = "Dark"] .Nav{
     background: #343434 ;
-    color: #fff;
+    color: #ddd;
+}
+body[theme = "Light"] .Nav{
+    background: #bababa ;
+    color: #242424;
 }
 
 .Nav__Swith_theme{
     float: right;
     max-height: 100%;
+    /*height: 7vh; /*! Only debug*/
+    /*min-height: 35px;   /*!Only debug*/
+    /*position:fixed;    /*!only debug  */
+    right: 10px;
+    top: 10px;
 }
 .Nav__Swith_Lang{
     float: left;
     max-height: 100%;
+}
+.Nav__Title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 11svw;
 }
 @media screen and /*(max-width:1440px)and*/ (min-width:1200px){
 /*==============Laptop===============*/

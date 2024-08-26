@@ -1,7 +1,7 @@
 {
   "name": "desktop",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.5.0",
   "type": "module",
   "homepage": "https://Anderesu44.github.io/desktop",
   "scripts": {

@@ -1,69 +1,19 @@
-.ProjectCart{
-    border: 3px solid;
-    margin: 10px;
+body[theme="Dark"] .Projects_title{
+    color: #ddd;
 }
-/* body[theme="Dark"] .ProjectCart{
-    border-color: orange;
-} */
-body[theme="Dark"] .ProjectCart{
-    border-color: orange;
+body[theme="Light"] .Projects_title{
+    color: #242424;
+    
 }
-body[theme="Dark"] .ProjectCart.jsx .ProjectCart__text{
-    color: aqua;
+.Projects{
+    margin: 16.5px 5px 0;
 }
-body[theme="Dark"] .ProjectCart.py .ProjectCart__text{
-    color: #005;
+body[theme="Light"] .Projects{
+    background: linear-gradient(to top,#ffc700,#fd7e00);
+    border: 3px solid #ffc700;
+    outline: 3px solid #fd7e00;
 }
-body[theme="Dark"] .ProjectCart.js .ProjectCart__text{
-    color: yellow;
-}
-body[theme="Dark"] .ProjectCart.kt .ProjectCart__text{
-    color: #ff00d4;
-}
-body[theme="Dark"] .ProjectCart.dj .ProjectCart__text{
-    color: #00c000;
-}
-.ProjectCart[select="True"] .ProjectCar__header{
-    max-height: 116px ;
-    transition: all 1s;
-}
-.ProjectCart[select="True"] .ProjectCart__lang_icon{
-    max-width: 116px;
-    transition: all 1s;
-
-}
-.jsx.ProjectCart[select="True"] {
-    border-color: aqua;
-}
-.py.ProjectCart[select="True"] {
-    border-color: #005;
-}
-.js.ProjectCart[select="True"] {
-    border-color: yellow;
-}
-.kt.ProjectCart[select="True"] {
-    border-color: #ff00d4;
-}
-.dj.ProjectCart[select="True"] {
-    border-color: #00c000;
-}
-.ProjectCar__header{
-    display: flex;
-    max-height: 80px;
-}
-.ProjectCart__lang_icon{
-    max-width: 80px;
-    border-radius: 100%;
-    margin: 3px 3px 0 3px;
-    float: left;
-}
-.ProjectCart__title {
-    overflow-y: scroll;
-    text-align: center;
-    font-size: 50px;
-    margin: 0;
-}
-.ProjectCart__text{
-    font-size: 25px;
-    margin: 0;
+.Project__conten{
+    max-height: 90vh;
+    overflow-y: auto;
 }

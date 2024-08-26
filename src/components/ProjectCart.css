@@ -1,0 +1,85 @@
+.ProjectCart{
+    border: 3px solid;
+    margin: 10px;
+}
+
+body[theme="Dark"] .ProjectCart{
+    border-color: #fd7e00;
+}
+body[theme="Light"] .ProjectCart{
+    
+    border-color: #242424;
+}
+/* ~ */
+
+.ProjectCart[select="False"] .ProjectCar__header{
+    max-height: 112px;
+    overflow: hidden;
+}
+.ProjectCart[select="False"] .ProjectCart__lang_icon{
+    float: left;
+    border-radius: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.ProjectCart[select="False"] .ProjectCart__title{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+.ProjectCart[select="True"] .ProjectCart__lang_icon{
+    float: left;
+    border-radius: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+.ProjectCart[select="True"] .ProjectCart__title{
+    text-align: center;
+    margin: 0 0 5px;
+    font-size: 50px;
+}
+body[theme="Dark"] .ProjectCart__title{
+    
+}
+body[theme="Light"] .ProjectCart__title{
+    color: #242424;
+}
+
+/* ~ */
+.ProjectCart__text{
+    font-size: 25px;
+    margin: 0;
+}
+
+
+.jsx.ProjectCart[select="True"] {
+    border-color: aqua;
+}
+.py.ProjectCart[select="True"] {
+    border-color: #005;
+}
+.js.ProjectCart[select="True"] {
+    border-color: #ffff00;
+}
+.kt.ProjectCart[select="True"] {
+    border-color: #ff00d4;
+}
+.dj.ProjectCart[select="True"] {
+    border-color: #00c000;
+}
+
+.ProjectCart.jsx .ProjectCart__text{
+    color: aqua;
+}
+.ProjectCart.py .ProjectCart__text{
+    color: #005;
+}
+.ProjectCart.js .ProjectCart__text{
+    color: #ffff00;
+}
+.ProjectCart.kt .ProjectCart__text{
+    color: #ff00d4;
+}
+.ProjectCart.dj .ProjectCart__text{
+    color: #00c000;
+}
