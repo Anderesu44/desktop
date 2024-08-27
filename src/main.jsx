@@ -3,7 +3,7 @@ import Router  from "./router"
 import "./index.css"
 
 
-ReactDOM.createRoot(document.body).render(<Router/>)
+ReactDOM.createRoot(document.getElementById("root")).render(<Router/>)
 
 const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
