@@ -3,10 +3,12 @@ import Home from './routes/Home.jsx'
 import Mesenger from "./routes/Mesenger.jsx"
 
 function Router(){
+
+    const publicUrl = process.env.PUBLIC_URL || 'https://anderesu44.github.io/desktop/'
     return(
-        <BRouter basename={process.env.PUBLIC_URL}>
+        <BRouter basename={publicUrl}>
             <Routes>
-                <Route path="/" element={<Home/>}/>
+                <Route exact path="/" element={<Home/>}/>
                 <Route path="/msg" element={<Mesenger/>}/>
             </Routes>
         </BRouter>
