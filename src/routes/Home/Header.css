@@ -40,3 +40,13 @@ body[theme="Light"] .H-Header__Sumary{
     margin: 10px;
     font-size: 30px;
 }
+@media screen and (min-width:719px) {
+    .H-Header__Avatar{
+        display: inline;
+        float: left;
+        margin: 10px 10px 0;
+    }
+    .H-Header__tilte{
+        text-align: left;
+    }
+}

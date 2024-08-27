@@ -1,8 +1,6 @@
 .Nav {
-    /* display: flex; */
     height: 7vh;
     min-height: 35px;
-    /* align-content: last baseline; */
 }
 
 body[theme = "Dark"] .Nav{
@@ -28,9 +26,23 @@ body[theme = "Light"] .Nav{
     max-height: 100%;
 }
 .Nav__Title{
+    font-size: 50px;
     margin: 0 auto;
     text-align: center;
-    font-size: 11svw;
+}
+@media screen and (max-width:450px){
+    .Nav__Title{
+        font-size: 11vw;       
+    }
+}
+@media screen and (min-width:550px){
+    .Nav__Title{
+        text-align: left;
+    }
+    .Nav {
+    height: 10vh;
+    min-height: 60px;
+}
 }
 @media screen and /*(max-width:1440px)and*/ (min-width:1200px){
 /*==============Laptop===============*/

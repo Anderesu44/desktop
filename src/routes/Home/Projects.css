@@ -6,12 +6,13 @@ body[theme="Light"] .Projects_title{
     
 }
 .Projects{
-    margin: 16.5px 5px 0;
+    margin: 10px 5px 0;
 }
-body[theme="Light"] .Projects{
+body[theme="Light"] .Project__conten{
     background: linear-gradient(to top,#ffc700,#fd7e00);
     border: 3px solid #ffc700;
     outline: 3px solid #fd7e00;
+    
 }
 .Project__conten{
     max-height: 90vh;

@@ -11,12 +11,12 @@ function App(){
     const [Lang,changeLang] = useState("EN")
     return (
         <>
-        <Nav lang={Lang} langSwitch={changeLang} />
-        <Header lang={Lang}/>
-        <Skills lang={Lang}/>
-        <Projects lang={Lang}/>
+        <Nav className="H-Nav" lang={Lang} langSwitch={changeLang} />
+        <Header className="H-Header" lang={Lang}/>
+        <Skills className="H-Skills" lang={Lang}/>
+        <Projects className="H-Projects" lang={Lang}/>
         {/*<Works/> */}
-        <Footer lang={Lang}/>
+        <Footer className="H-Footer" lang={Lang}/>
         </>
     )
 }

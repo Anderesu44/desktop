@@ -11,7 +11,9 @@ body[theme="Light"] .Skills__title,body[theme="Light"] .Skills__content div h3{
     text-decoration: underline;
     text-decoration-color: #fd7e00;
 }
-
+body[theme="Dark"] .Skills__title{
+    color: #ddd;
+}
 body[theme="Dark"] .Skills__content{
     background-color: #1a1a15;
     border-color: #212118;
@@ -27,9 +29,9 @@ body[theme="Light"] .Skills__content{
     border: 4px solid;
     outline: 4px solid;
 }
-.Skills__py h3{
+/* .Skills__py h3{
     margin: 3px auto 23.4px;
-}
+} */
 .Skills__box{
     border-right: 3px solid;
     border-left: 3px solid;
@@ -92,4 +94,37 @@ body[theme="Light"] .Skills_Skill__icon{
     box-sizing: border-box;
     margin: 0;
 
+}
+@media screen and (min-width:376px) and (max-width:549px){
+    .Skills__Skill,.Skills__Level{
+        font-size: 40px;
+        margin: 0;
+    }
+    .Skills_Skill__icon{
+        max-width: 40px;
+    }
+}
+@media screen and (min-width:750px) {
+    .Skills__Skill,.Skills__Level{
+        font-size: 30px;
+        margin: 0;
+    }
+    .Skills__box{
+        max-height: 40px;
+        /* overflow-x: hidden;   */
+        
+        white-space: nowrap;
+    }
+}
+@media screen and (min-width:1350px) {
+    .Skills__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+
+    }
+    .Skills__content_box{
+        min-width: 300px;
+        margin: 10px;
+    }
 }

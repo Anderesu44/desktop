@@ -45,14 +45,14 @@
             "Spc_Others":"Others",
             "Footer_tilte__text":"My Desktop",
             "Footer__Contact_title":"Contact me",
-            "Footer__link_direct_mesenger":"direct mesenger",
+            "Footer__link_direct_mesenger":"Direct Messager",
             "Footer__link_credits_mel":"Avatar image by MelRed",
             "Footer__link_cradits_icons":"icons created by Icon Mela - Flaticon",
             "Footer__firma":"Page Designed by A44",
             "":""
         },
         "ES":{
-            "H-Header__tilte":"desarrollador web junior",
+            "H-Header__tilte":"Desarrollador web junior",
             "H-Header_Sumary__title":"Resumen",
             "H-Header_Sumary__text":"Soy njuevo en el mundo de la programacion, se programar con Python, HTML/CSS y JavaScript. Soy de cuba y tengo 18años, se Hablar ingles muy basico .Estoy desarrollando nuevos proyectos y aprendiendo nuevas tecnologias. Quiciera trabajar en una gran compañia algun dia",
             "Skills__title":"Habilidades",
@@ -64,9 +64,9 @@
             "Spc_Others":"Otras",
             "Footer_tilte__text":"Mi portafolios",
             "Footer__Contact_title":"Contactame",
-            "Footer__link_direct_mesenger":"mensage directo",
-            "Footer__link_credits_mel":"imagen de avatar por MelRed",
-            "Footer__link_cradits_icons":"iconos creados por Icon Mela - Flaticon",
+            "Footer__link_direct_mesenger":"Mensage Directo",
+            "Footer__link_credits_mel":"Imagen de avatar por MelRed",
+            "Footer__link_cradits_icons":"Iconos creados por Icon Mela - Flaticon",
             "Footer__firma":"Pagina Diseñada por A44",
             "":""
         }

@@ -1,29 +1,49 @@
 /*~@media screen and (max-width:540px) {
-/* /*==============Movile===============* /
+
 /*~}
 */
-body[theme = "Dark"] .home{
-    /* background-color: rgb(17, 20, 17); */
-    /* grid-template-areas: 
-    "nav"
-    ""
-    ; */
-}
-@media screen and (max-width:1200px)and (min-width:540px){
-    /*==============Tablet===============*/
-    body[theme = "Dark"] .home{
-        display: grid;
-        background-color: rgb(17, 20, 17);
-        grid-template-areas: 
-        " nav    nav    nav    nav"
-        "header header header header"
-        "skills projects aside"
-        "skills projects works"
-        "footer footer footer"
-        ;
+@media screen and (min-width:425px) and (max-width:549px){
+    .H-Skills{
+        display: block;
+        margin: auto;
+        max-width: 425px;
+    }
+    .H-Projects{
+        display: block;
+        margin: 16.5px auto 0;
+        max-width: 425px;
     }
 }
-@media screen and /*(max-width:1440px)and*/ (min-width:1200px){
+@media screen and (min-width:550px){  
+    .home{
+        display: grid;
+        grid-template-areas: 
+        "  nav    nav"
+        "header header"
+        "skills projects"
+        "skills projects"
+        "footer footer"
+        ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto 1fr auto;
+    }
+    .H-Nav{
+        grid-area: nav;
+    }
+    .H-Header{
+        grid-area: header;
+    }
+    .H-Skills{
+        grid-area: skills;
+    }
+    .H-Projects{
+        grid-area: projects;
+    }
+    .H-Footer{
+        grid-area: footer;
+    }
+}
+@media screen and (min-width:1200px){
     /*==============Laptop===============*/
 }
 @media screen and (min-width:1440px){
