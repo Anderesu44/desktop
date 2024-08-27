@@ -25,3 +25,5 @@ dist-ssr
 test.js
 .gitignore
 
+vite-project/
+.gitignore
