@@ -4,7 +4,7 @@ import Mesenger from "./routes/Mesenger.jsx"
 
 function Router(){
     return(
-        <BRouter>
+        <BRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/msg" element={<Mesenger/>}/>
