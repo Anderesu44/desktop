@@ -1,8 +1,8 @@
 import "./Img.css"
 
 function randomAltImg() {
-    const num = Math.floor(Math.random() * 25);
-    let _path = `\\res\\img\\error_404\\error_404_${num}.jpeg`;
+    const num = Math.floor(Math.random() * 5);
+    let _path = `res/img/error_404/error_404_${num}.jpeg`;
     return _path;
 }
 
@@ -32,7 +32,7 @@ function Img({children,className,id,src,alt,onErrorCapture,onClickCapture}) {
     return (<img className={className?`Img ${className}`: "Img"}
                  id={id ? id:""}
                  src={src ? src : randomAltImg()}
-                 onErrorCapture={onErrorCapture ? ErrorCapture : setImgError}
+                 onErrorCapture={onErrorCapture ? ErrorCapture : (syntheticBaseEvent)=>{setImgError(syntheticBaseEvent,alt)}}
                  onClickCapture={onClickCapture}
                  />)
 }

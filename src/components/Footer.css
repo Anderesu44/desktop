@@ -63,6 +63,9 @@ body[theme = "Light"] .Footer_tilte__link{
 .Footer__link__icon{
     border: 2px solid #ffffff;
 }
+body[theme="Dark"] .Footer__link__icon{
+    background-color: #f4f4f4
+}
 .Footer__link__icon{
     max-width: 25px;
     padding: 1px;

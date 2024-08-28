@@ -118,7 +118,7 @@ function App() {
                 </div>
             </div>
         </aside>
-        <aside className="new_wind" select="True" id="Emerging-Window" onClickCapture={({target})=>{location.href="/"}}>
+        <aside className="new_wind" select="True" id="Emerging-Window" onClickCapture={({target})=>{location.href="/#/"}}>
             <div className="mini_wind">
                 <div className="mini_wind__title">
                     <h3 className="mini_wind_title__text">¡Opcion suspendida!</h3>
