@@ -16,8 +16,8 @@ function App() {
         <Main lang={Lang}/>
         <Footer lang={Lang}/>    
 
-        <EmergingWindow init id="EmergingWindow-0" title={Langs[Lang]["Error_wind_title"]}>{Langs[Lang]["Error_wind_msg"]}</EmergingWindow>
-        <EmergingWindow  id="EmergingWindow-1" title={Langs[Lang]["Suspended_wind_title"]} onClickCapture={({target})=>{/*location.href="/#/"*/}}>{Langs[Lang]["Suspended_wind_msg"]}</EmergingWindow>
+        <EmergingWindow  id="EmergingWindow-0" title={Langs[Lang]["Error_wind_title"]}>{Langs[Lang]["Error_wind_msg"]}</EmergingWindow>
+        <EmergingWindow init id="EmergingWindow-1" title={Langs[Lang]["Suspended_wind_title"]} onClickCapture={({target})=>{/*location.href="/#/"*/}}>{Langs[Lang]["Suspended_wind_msg"]}</EmergingWindow>
     </>)
 }
 export default App
