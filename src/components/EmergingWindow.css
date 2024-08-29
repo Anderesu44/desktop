@@ -1,0 +1,53 @@
+.EmergingWindow{
+    position:absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: #24242410;
+    display: flex;
+    align-items: center;
+}
+.EmergingWindow[select="False"]{
+    max-width: 0px;
+    max-height: 0px;
+}
+.mini_wind{
+    margin: 5vw;
+    background-color: #242424;
+    border: 3px solid;
+    border-radius: 10%;
+}
+body[theme="Dark"] .mini_wind{
+    border-color: #eeeeee;
+}
+body[theme="Light"] .mini_wind{
+    border-color: #ffc700;
+}
+@media screen and (min-width:720px) {
+    .mini_wind{
+        margin: 25vw;
+    }
+}
+.mini_wind__title{
+    background-color: #444444;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top-right-radius: 16.5%;
+    border-top-left-radius: 16.5%;
+}
+.mini_wind_title__text{
+    color: #ffff00;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline double #f00;
+}
+.mini_wind__msg{
+    margin: 10px;
+}
+.mini_wind_msg__text{
+    color: #eeeeee;
+    font-size: 30px;
+}

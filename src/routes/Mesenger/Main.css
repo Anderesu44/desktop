@@ -1,0 +1,88 @@
+.Send_msg{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 0 10px 0 0;
+    flex: 1;
+}
+.Info{
+    margin: 10px;
+    padding: 0 10px 10px;
+    background-color: #04040450;
+    font-size: 25px;
+}
+body[theme="Dark"] .Info{
+    color: #ddd;
+}
+body[theme="Light"] .Info{
+    color: #222;
+    text-decoration: underline #ffc700;
+}
+@media screen and (min-width:720px) {
+    .Send_msg{
+        max-width: 48%;
+        margin: auto;
+        /* float: left; */
+    }
+    .Info{
+        font-size: 50px;
+    }
+}
+.Send_msg__icon{
+    max-width: 100px;
+    margin: auto 5px;
+}
+.Send_msg__Form{
+    flex: 2;
+}
+.Send_msg_Form__input{
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid;
+    margin: 10px 0;
+
+}
+.Send_msg_Form__input:focus{
+    border-bottom: 3px solid;
+    outline: none;
+}
+
+.Send_msg_Form__input.text{
+    resize: none;
+    height: 90px;
+}
+body[theme="Dark"] .Send_msg{
+    background-color: #242424;
+}
+body[theme="Light"] .Send_msg{
+    background-color: #cccccc;
+    border: 3px solid #c3c3c3;
+    outline: 3px solid #bfbfbf;
+}
+
+body[theme="Dark"] .Send_msg_Form__input{
+    border-bottom-color: #ffc700;
+    color: #ffff00;
+}
+body[theme="Dark"] .Send_msg_Form__input::placeholder {
+    color: #ffc70050;
+}
+body[theme="Dark"] .Send_msg_Form__input:focus{
+    border-bottom-color: #fd7e00;
+    font-size: 23px;
+}
+body[theme="Dark"] .Send_msg_Form__input:focus::placeholder{
+    color: #ffc70000;
+}
+/* .M-Main{
+    display: flex;
+    flex-direction: column;
+} */
+/* @media screen and (min-width:720px) {
+    .M-Main{
+        flex-direction: row;
+    }
+} */
+

@@ -1,0 +1,83 @@
+.Send_msg_Contact{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width:700px) {
+    .Send_msg_Contact{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
+.Send_msg_Contact__title{
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+body[theme="Dark"] .Send_msg_Contact__title{
+    color: #ddd;
+}
+.Send_msg_Contact__buttons{
+    display: flex;
+    justify-content: center;
+}
+.Send_msg_Contact__button{
+    border: none;
+    background: none;
+    font-size: 22px;
+    /* text-decoration: underline; */
+    /* text-decoration-style:double; */
+    margin: 0 2px;
+    padding: 0;
+}
+body[theme="Dark"] .Send_msg_Contact__button{
+    border-bottom: 1px solid #ffc700;
+    color: #ddd;
+}
+body[theme="Light"] .Send_msg_Contact__button{
+    border-bottom: 1px solid #fd7e00;
+    color: #242424;
+}
+@media screen and (max-width:380px) {
+    .Send_msg_Contact__button{
+        font-size: 20.7px;
+    }
+}
+@media screen and (max-width:368px) {
+    .Send_msg_Contact__button{
+        font-size: 16px;
+    }
+}
+body[theme="Dark"] .Send_msg_Contact__button:hover{
+    background: linear-gradient(to top,#ffc700,#fd7e00);
+    border-bottom: 2px solid #ffc700;
+}
+body[theme="Light"] .Send_msg_Contact__button:hover{
+        background: linear-gradient(to bottom,#ffc700,#fd7e00);
+        border-bottom: 2px solid #fd7e00;
+}      
+.Send_msg_Contact__button:hover{
+    margin: 0 2px;
+    padding: 0;
+}
+@media screen and (max-width:720px) {
+    .Send_msg_Contact__button.back{
+        position: absolute;
+        right: 20px;
+        text-decoration: none;
+        border: none !important;
+    }
+}
+@media screen and (min-width:720px) {
+    .Send_msg_Contact__button.back{
+        position: relative;
+        right: -89%;
+        bottom: -30px;
+        text-decoration: none;
+        border: none !important;
+    }
+}
+body[theme="Dark"] .Send_msg_Contact__button{
+    text-decoration-color: #ffc700;
+}
