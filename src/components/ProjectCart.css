@@ -4,10 +4,11 @@
 }
 
 body[theme="Dark"] .ProjectCart{
-    border-color: #fd7e00;
+    background-color: #242424;
+    border-color: #ddd;
 }
 body[theme="Light"] .ProjectCart{
-    
+    background-color: #242424;
     border-color: #242424;
 }
 /* ~ */
@@ -33,16 +34,36 @@ body[theme="Light"] .ProjectCart{
     padding: 5px 0;
     box-sizing: border-box;
 }
+.ProjectCart__Take_a_look{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ProjectCart__Take_a_look_text{
+    font-size: 30px;
+    color: #00ecec !important;
+    text-decoration: underline 1px;
+}
+.ProjectCart__GitHub_icon{
+    background-color: #ddd;
+    border-radius: 100%;
+    padding: 1px;
+    max-height: 7vh;
+
+}
+body[theme="Light"] .ProjectCart__lang_icon_contener{
+    background-color: #242424
+}
 .ProjectCart[select="True"] .ProjectCart__title{
     text-align: center;
     margin: 0 0 5px;
     font-size: 50px;
 }
 body[theme="Dark"] .ProjectCart__title{
-    
+    color: #bbb;
 }
-body[theme="Light"] .ProjectCart__title{
-    color: #242424;
+body[theme="Light"] .ProjectCart[select="False"] .ProjectCart__title{
+    color: #ddd;
 }
 
 /* ~ */
@@ -52,11 +73,11 @@ body[theme="Light"] .ProjectCart__title{
 }
 
 
-.jsx.ProjectCart[select="True"] {
+.jsx.ProjectCart[select="True"]{
     border-color: aqua;
 }
 .py.ProjectCart[select="True"] {
-    border-color: #005;
+    border-color: #008;
 }
 .js.ProjectCart[select="True"] {
     border-color: #ffff00;
@@ -64,22 +85,28 @@ body[theme="Light"] .ProjectCart__title{
 .kt.ProjectCart[select="True"] {
     border-color: #ff00d4;
 }
+.kv.ProjectCart[select="True"] {
+    border-color: #c0c0c0;
+}
 .dj.ProjectCart[select="True"] {
     border-color: #00c000;
 }
 
-.ProjectCart.jsx .ProjectCart__text{
+.ProjectCart.jsx .ProjectCart__text,body[theme="Light"] .ProjectCart[select="True"] .ProjectCart__title.jsx{
     color: aqua;
 }
-.ProjectCart.py .ProjectCart__text{
-    color: #005;
+.ProjectCart.py .ProjectCart__text, body[theme="Light"] .ProjectCart[select="True"] .ProjectCart__title.py{
+    color: #38f;
 }
-.ProjectCart.js .ProjectCart__text{
+.ProjectCart.js .ProjectCart__text, body[theme="Light"] .ProjectCart[select="True"] .ProjectCart__title.js{
     color: #ffff00;
 }
-.ProjectCart.kt .ProjectCart__text{
+.ProjectCart.kt .ProjectCart__text, body[theme="Light"] .ProjectCart[select="True"] .ProjectCart__title.kt{
     color: #ff00d4;
 }
-.ProjectCart.dj .ProjectCart__text{
+.ProjectCart.kv .ProjectCart__text,body[theme="Light"] .ProjectCart[select="True"] .ProjectCart__title.kv{
+    color: #c0c0c0;
+}
+.ProjectCart.dj .ProjectCart__text, body[theme="Light"] .ProjectCart[select="True"] .ProjectCart__title.dj{
     color: #00c000;
 }

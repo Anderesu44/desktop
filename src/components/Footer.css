@@ -9,14 +9,6 @@ Footer{
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 100vw;
 }
-body[theme = "Dark"] .Footer{
-    color: #0000FF;
-    background: linear-gradient(to top,#ffc700,#fd7e00);
-}
-body[theme = "Light"] .Footer{
-    color: #ddd;
-    background: #343434;
-}
 .Footer__tilte{
     grid-area: title;
     padding: 0 20px;
@@ -28,23 +20,11 @@ body[theme = "Light"] .Footer{
     margin: 0;
     padding: 0 30px;
 }
-body[theme = "Dark"] .Footer_tilte__list li{
-    color: #343434;
-}
-body[theme = "Light"] .Footer_tilte__list li{
-    color: #ddd;
-}
+
 .Footer_tilte__link, .Footer_tilte__link:visited, .Footer_tilte__link:hover{
     margin: 0;
     padding: 0;
 }
-body[theme = "Dark"] .Footer_tilte__link{
-    color: #343434;
-}
-body[theme = "Light"] .Footer_tilte__link{
-    color: #ddd;
-}
-
 
 .Footer_Contact{
     grid-area: contact;
@@ -60,39 +40,13 @@ body[theme = "Light"] .Footer_tilte__link{
     display: block;
     margin: 10px 0;
 }
-.Footer__link__icon{
-    border: 2px solid #ffffff;
-}
-body[theme="Dark"] .Footer__link__icon{
-    background-color: #f4f4f4
-}
+
 .Footer__link__icon{
     max-width: 25px;
     padding: 1px;
     border-radius: 100%;
 }
-@media screen and (max-width:550px) {
-    .Footer__link__icon{
-        float: left;
-    }
-}
-body[theme = "Dark"] .Footer__link,body[theme = "Dark"] .Footer__link:visited,body[theme = "Dark"] .Footer__link{
-    color: #0000ff;
-}
-body[theme = "Light"] .Footer__link,body[theme = "Light"] .Footer__link:visited,body[theme = "Light"] .Footer__link{
-    color: #ddd;
-    text-decoration:underline #ffc700;
-}
-body[theme = "Dark"] .Footer__creditos .Footer__link,body[theme = "Dark"] .Footer__creditos .Footer__link:visited,body[theme = "Dark"] .Footer__creditos .Footer__link{
-    color: #cc0022;
-}
 
-body[theme = "Dark"] .Footer__link:hover{
-    color: #000000;
-}
-body[theme = "Light"] .Footer__link:hover{
-    color: #d9ff00;
-}
 .Footer__link:hover{
     transition: all .3s;
     font-size: larger;
@@ -119,6 +73,55 @@ body[theme = "Light"] .Footer__link:hover{
     display: block;
     margin: 0 auto;
     padding: 0;
+}
+body[theme = "Dark"] .Footer{
+    color: #ddd;
+    background: linear-gradient(to top,#000000,#343434);
+}
+body[theme = "Light"] .Footer{
+    color: #343434;
+    background: linear-gradient(to top, #fff, #bababa);
+} 
+        
+body[theme = "Dark"] .Footer_tilte__list li{
+    color: #ddd;
+}
+body[theme = "Light"] .Footer_tilte__list li{
+    color: #343434;
+}
+
+body[theme = "Dark"] .Footer_tilte__link{
+    color: #ddd;
+    }
+body[theme = "Light"] .Footer_tilte__link{
+    color: #343434;
+}
+body[theme="Dark"] .Footer__link__icon{
+    border: 2px solid #ffffff;
+    background-color: #f4f4f4
+}
+
+body[theme = "Dark"] .Footer__link,body[theme = "Dark"] .Footer__link:visited,body[theme = "Dark"] .Footer__link{
+    color: #00aaaa;
+}
+body[theme = "Light"] .Footer__link,body[theme = "Light"] .Footer__link:visited,body[theme = "Light"] .Footer__link{
+    color: #077;
+}
+
+body[theme = "Dark"] .Footer__creditos .Footer__link,body[theme = "Dark"] .Footer__creditos .Footer__link:visited,body[theme = "Dark"] .Footer__creditos .Footer__link{
+    color: #cc0022;
+}
+    
+body[theme = "Dark"] .Footer__link:hover{
+    color: #0ff;
+}
+body[theme = "Light"] .Footer__link:hover{
+    color: #078;
+}
+@media screen and (max-width:550px) {
+    .Footer__link__icon{
+        float: left;
+    }
 }
 
 @media screen and (min-width:550px) {
@@ -157,9 +160,9 @@ body[theme = "Light"] .Footer__link:hover{
         ;
         grid-template-columns: 33% 33% 33%;
     }
-    body[theme = "Dark"] .Footer_Contact{
+    /* body[theme = "Dark"] .Footer_Contact{
         background-color: #fd7e00;
         
-    }
+    } */
     
 }

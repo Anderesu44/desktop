@@ -16,7 +16,7 @@ function App(){
         <Skills className="H-Skills" lang={Lang}/>
         <Projects className="H-Projects" lang={Lang}/>
         {/*<Works/> */}
-        <Footer className="H-Footer" lang={Lang}/>
+        <Footer className="H-Footer" lang={Lang} location="Home"/>
         </>
     )
 }

@@ -9,6 +9,9 @@ export function scrollToElement(id){
       element.scrollIntoView({ behavior: 'smooth' });
     }
 };
+export function toHome(){
+  if (location.href.split("desktop").reverse()[0] != "/#/"){location.href = "#/"}
+}
 
 ReactDOM.createRoot(document.body).render(<Router/>)
 

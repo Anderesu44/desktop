@@ -21,16 +21,14 @@ body[theme="Dark"] .H-Header__Sumary{
     color: #ddd;
 }
 body[theme="Light"] .H-Header__Avatar{
-    border-color: #fd7e00;
+    border-color: #242424;
 }
 body[theme="Light"] .H-Header_Sumary__title{
-    text-decoration: underline;
-    text-decoration-color: #fd7e00;
+    color: #242424;
+    text-decoration: underline #242424;
 }
 body[theme="Light"] .H-Header_Sumary__text{
-    text-shadow: 1px 1px 0px #fd7e00,
-                 1px 1px 1em #fd7e00;
-    text-decoration-color: #fd7e00;
+    color: #242424;
 }
 body[theme="Light"] .H-Header__Sumary{
     color: #242424;

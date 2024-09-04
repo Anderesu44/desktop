@@ -9,15 +9,15 @@ function Skills({lang, className}) {
             <div className="Skills__content">
                 <div className="Skills__content_box Skills__py">
                     <h3>Python:</h3>
-                    <div className="Skills__box notpair"> <p className="Skills__Skill"><Img className="Skills_Skill__icon" src="https://static.djangoproject.com/img/icon-touch.e4872c4da341.png" alt="res/img/Languages/dj.ico" />Django - </p> <p className="Skills__Level B">{Langs[lang]["Spc_Biginer"]}</p></div>
+                    <div className="Skills__box notpair"> <p className="Skills__Skill"><Img className="Skills_Skill__icon" src="https://fastapi.tiangolo.com/img/favicon.png" alt="res/Ui/fapi.ico" />FastAPI - </p> <p className="Skills__Level Ba">{Langs[lang]["Spc_Basic"]}</p></div>
                     <div className="Skills__box pair"> <p className="Skills__Skill"><Img className="Skills_Skill__icon" src="https://kivymd.readthedocs.io/en/latest/_static/logo-kivymd.png" alt="res/img/Languages/kv.ico"/>KivyMD - </p><p className="Skills__Level Ba">{Langs[lang]["Spc_Basic"]}</p></div>
                     <div className="Skills__box notpair last"><p className="Skills__Skill"><Img className="Skills_Skill__icon" src="https://www.python.org/static/favicon.ico" alt="res/img/Languages/py.ico"/>Vanilla - </p><p className="Skills__Level A">{Langs[lang]["Spc_Advanced"]}</p></div>
                 </div>
                 <div className="Skills__content_box Skills__js">
                     <h3>JavaScript:</h3>
-                    <div className="Skills__box notpair"><p className="Skills__Skill"><img className="Skills_Skill__icon" src="res/img/Languages/api.ico" />fetch - </p><p className="Skills__Level B">{Langs[lang]["Spc_Biginer"]}</p></div>
-                    <div className="Skills__box pair"><p className="Skills__Skill"><Img className="Skills_Skill__icon" src="https://es.react.dev/favicon-32x32.png" alt="res/img/Languages/jsx.svg"/>React - </p><p className="Skills__Level Ba">{Langs[lang]["Spc_Basic"]}</p></div>
-                    <div className="Skills__box notpair last"><p className="Skills__Skill"><img className="Skills_Skill__icon" src="res/img/Languages/js.ico" alt="res/img/Languages/js.ico"/>Vanilla - </p><p className="Skills__Level B">{Langs[lang]["Spc_Biginer"]}</p></div>
+                    <div className="Skills__box notpair"><p className="Skills__Skill"><img className="Skills_Skill__icon" src="res/img/Languages/api.ico" />Node - </p><p className="Skills__Level B">{Langs[lang]["Spc_Biginer"]}</p></div>
+                    <div className="Skills__box pair"><p className="Skills__Skill"><Img className="Skills_Skill__icon" src="https://es.react.dev/favicon-32x32.png" alt="res/img/Languages/jsx.png"/>React - </p><p className="Skills__Level Ba">{Langs[lang]["Spc_Basic"]}</p></div>
+                    <div className="Skills__box notpair last"><p className="Skills__Skill"><img className="Skills_Skill__icon" src="res/img/Languages/js.ico" alt="res/img/Languages/js.ico"/>Vanilla - </p><p className="Skills__Level Ba">{Langs[lang]["Spc_Basic"]}</p></div>
                 </div>
                 <div className=" Skills__content_box Skills__html/css">
                     <h3>HTML/CSS:</h3>

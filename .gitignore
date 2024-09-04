@@ -27,3 +27,5 @@ test.js
 
 vite-project/
 .gitignore
+firebase.js
+src/configs.jsonc

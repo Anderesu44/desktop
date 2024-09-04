@@ -2,6 +2,7 @@ import "./Nav.css"
 import { useState } from "react"
 
 import {Langs} from "../configs.json"
+import { toHome } from "../main";
 
 function changeTheme(theme,themeSwitch) {
     let body = document.body
@@ -23,6 +24,7 @@ function changeLang(lang,langSwitch) {
         html.setAttribute("lang","EN")
         langSwitch("EN")
     }
+    
 }
 
 function Nav({className,lang,langSwitch,children,location}) {
@@ -30,10 +32,10 @@ function Nav({className,lang,langSwitch,children,location}) {
     let theme_ = body.getAttribute("theme")
     const [theme,themeSwitch] = useState(theme_)
     
-    return (<nav className={className ? `Nav ${className}` : "Nav"}>
-    <img className="Nav__Swith_theme" src={theme === "Light"?"res/Ui/cambiar_0.png":"res/Ui/cambiar_1.png"} onClickCapture={({target})=>{changeTheme(theme,themeSwitch)}}/>
-    <img className="Nav__Swith_Lang" src="res/Ui/idioma.png" onClickCapture={({target})=>{changeLang(lang,langSwitch)}}/>
-    <h2 className="Nav__Title">{Langs[lang]["Footer_tilte__text"]}</h2>
+    return (<nav className={className ? `Nav ${className}` : "Nav"} id="Top">
+    <img className="Nav__Swith_Lang" src={lang === "EN"?"res/Ui/espanol.svg":"res/Ui/ingles.svg"} onClickCapture={({target})=>{changeLang(lang,langSwitch)}}/>
+    <h2 onClickCapture={toHome} className="Nav__Title">{Langs[lang]["Footer_tilte__text"]}</h2>
+    <img className="Nav__Swith_theme" src={theme === "Light"?"res/Ui/sol.svg":"res/Ui/luna.svg"} onClickCapture={({target})=>{changeTheme(theme,themeSwitch)}}/>
     </nav>)
 }
 export default Nav

@@ -1,36 +1,51 @@
 {
-    "projects" :{
-        "project_1": {
-            "id": "jsx_01",
+    "projects" :[
+        {
+            "id": "kv_01",
             "name":{
-                "EN":"Animes Catalog",
-                "ES":"Catalago de Animes"
+                "EN":"My Desktop",
+                "ES":"Mi Portafolios"
             },
             "Language":"jsx",
-            "data_update":20240620,
-            "link":"localhost:5174",
-            "Progress":"40%",
-            "description": {
-                "EN" : "this makeing a Catalog thas allows me optimize all the animes thas i am wath for can find it",
-                "ES" : "Estoy creando un Catalogo que me permita organizar todos los animes que he visto para encontarlos de manera facil y comoda"
-            }
+            "data_update":20240704,
+            "link":"https://github.com/Anderesu44/Desktop",
+            "Progress":"70%",
+            "description":{
+                "EN":"this's my Desktop",
+                "ES": "Este es mi Desktop"
+            } 
         },
-        "project_4": {
-            "id": "kt_01",
+        {
+            "id": "jsx_01",
             "name":{
                 "EN":"Calculator",
-                "ES":"calculadora"
+                "ES":"Calculadora"
             },
-            "Language":"kt",
+            "Language":"kv",
             "data_update":20240622,
-            "link":"localhost:5174",
+            "link":"https://github.com/Anderesu44/Calculator",
             "Progress":"starteds",
             "description":{
-                "EN":"this is the calculator for terminal that allows you to do simples arimethic operations",
-                "ES": "Es una calculadora simple por terminal que permite hacer operaciones aridmeticas simples"
+                "EN":"This is a calculator with interface for android that allows you to do simple arimetic",
+                "ES": "Es una calculadora con interfaz para android que te permite hacer operaciones arimeticas simples"
+            } 
+        },
+        {
+            "id": "py_01",
+            "name":{
+                "EN":"Shutdown timer",
+                "ES":"Shutdown timer"
+            },
+            "Language":"py",
+            "data_update":20240519,
+            "link":"https://github.com/Anderesu44/shutdown-timer",
+            "Progress":"final",
+            "description":{
+                "EN":"Basically an application that facilitates the programming of device shutdown or restart with an easy and intuitive interface",
+                "ES": "Básicamente una aplicación que facilita la programación de apagado o reinicio del dispositivo con una interfaz fácil e intuitiva"
             } 
         }
-    },
+    ],
     "Langs":{
         "EN":{
             "H-Header__tilte":"Web developer junior",
@@ -42,6 +57,8 @@
             "Spc_Average":"Average",
             "Spc_Advanced":"Advanced",
             "Spc_Master":"Master",
+            "Projects_title":"Projects",
+            "ProjectCart__Take_a_look":"Take a look",
             "Spc_Others":"Others",
             "Spc_Send":"Send",
             "Spc_Name":"Name",
@@ -53,7 +70,7 @@
             "Footer__Contact_title":"Contact me",
             "Footer__link_direct_mesenger":"Direct Messager",
             "Footer__link_credits_mel":"Avatar image by MelRed",
-            "Footer__link_cradits_icons":"icons created by Icon Mela Flaticon",
+            "Footer__link_cradits_icons":"icons by Flaticon",
             "Footer__firma":"Page Designed by A44",
             "Error_wind_msg":"Enter a name to identify it, indicate a via so that we can contact you and indicate the message you want to send us",
             "Error_wind_title":"Fill all fields properly!",
@@ -73,6 +90,8 @@
             "Spc_Advanced":"Avansado",
             "Spc_Basic":"Basico",
             "Spc_Master":"Maestro",
+            "Projects_title":"Proyectos",
+            "ProjectCart__Take_a_look":"Échale un vistazo",
             "Spc_Others":"Otras",
             "Spc_Send":"Enviar",
             "Spc_Name":"Nombre",
@@ -84,7 +103,7 @@
             "Footer__Contact_title":"Contactame",
             "Footer__link_direct_mesenger":"Mensage Directo",
             "Footer__link_credits_mel":"Imagen de avatar por MelRed",
-            "Footer__link_cradits_icons":"Iconos creados por Icon Mela Flaticon",
+            "Footer__link_cradits_icons":"Iconos de Flaticon",
             "Footer__firma":"Pagina Diseñada por A44",
             "Error_wind_msg":"Indique un nombre para identificarle, indique una via para que podamos contactarle e indique el mensaje que quiere enviarnos",
             "Error_wind_title":"¡Rellene todos los campos correctamente!",

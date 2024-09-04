@@ -56,13 +56,29 @@ function sendMessage() {
 
     const input_message = document.getElementById("input_Message")
     const message_text = input_message.value
-    
-     
-    console.log(name_text,method,way,message_text)
-    win = document.getElementById("EmergingWindow-1")
-    if (win){
-        win.setAttribute("select","True")
-    }
+
+    //? conexion con mi API
+    //!Arreglalo
+
+    // const url = `http://127.0.0.1:8000/sendmsg/${name_text}/${method}/${way.replace("+","%2B")}/${message_text}`
+
+    // const data = {
+    // // Aquí puedes agregar cualquier dato adicional que necesites enviar
+    // }
+    // fetch(url, {
+    // method: 'POST', // Método de la petición
+    // headers: {'Content-Type': 'application/json'/* Tipo de contenido*/},body: JSON.stringify(data) /* Convertir los datos a JSON*/})
+    // .then(response => response.json()) // Convertir la respuesta a JSON
+    // .then(data => {
+    // console.log('Success:', data); // Manejar la respuesta
+    // })
+    // .catch((error) => {
+    // console.error('Error:', error); // Manejar errores
+    // });
+    // win = document.getElementById("EmergingWindow-1")
+    // if (win){
+    //     win.setAttribute("select","True")
+    // }
     clearInputs()
 }
 function clearInputs() {
